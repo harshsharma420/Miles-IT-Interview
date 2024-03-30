@@ -1,4 +1,4 @@
-# MilesTrial
+# MilesTrialInterceptors
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
@@ -8,27 +8,27 @@ This repository and project has been created for me to practice and prepare for 
 
 ## List
 
-- [ x ] Services
-- [ x ] Dependency Injection
-- [ x ] Input / Output decorators to share data between components
-- [ x ] Template Reference Variables
-- [ x ] Routes
-- [ x ] ViewChild
-- [ x ] Property / Event Binding
-- [  ] Route Guards
-- [  ] Http Interceptors
-- [  ] Pipes
-- [  ] Async Pipe
-- [  ] Lazy Loading
-- [  ] StandAlone Components
-- [  ] Angular Material
-- [  ] Custom Directives
-- [  ] Custom Elements
-- [  ] TrackBy
-- [  ] Rxjs
-- [  ] Subjects
-- [  ] Behavior Subject
-- [  ] Signal
+- [x] Services
+- [x] Dependency Injection
+- [x] Input / Output decorators to share data between components
+- [x] Template Reference Variables
+- [x] Routes
+- [x] ViewChild
+- [x] Property / Event Binding
+- [ ] Route Guards
+- [ ] Http Interceptors
+- [ ] Pipes
+- [ ] Async Pipe
+- [ ] Lazy Loading
+- [ ] StandAlone Components
+- [ ] Angular Material
+- [ ] Custom Directives
+- [ ] Custom Elements
+- [ ] TrackBy
+- [ ] Rxjs
+- [ ] Subjects
+- [ ] Behavior Subject
+- [ ] Signal
 
 
 > [!NOTE]
