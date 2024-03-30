@@ -1,0 +1,11 @@
+<div class="container">
+
+    <p>Child Componenet</p>
+    This is from Parent Component : {{massage}}
+    <br>
+
+    <input type="text" [(ngModel)]="message" (keydown)="onKeyUp($event)">
+    <br>
+
+    <ng-content></ng-content>
+</div>

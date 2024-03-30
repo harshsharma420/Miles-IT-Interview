@@ -1,0 +1,11 @@
+<div class="container">
+
+    <p>Parent Component</p>
+    <input type="text" [(ngModel)]="message" /> <br>
+
+    Message From Child Component : {{childMessage}}
+</div>
+    <br>
+    <hr>
+    <app-c2 [massage]="message" (essage)="receiveMessage($event)">Hello Guys how are you all!</app-c2>
+    <!-- <hr> -->
