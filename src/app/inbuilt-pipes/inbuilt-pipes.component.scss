@@ -1,0 +1,15 @@
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 2rem;
+}
+
+li:nth-child(even){
+    background-color: yellowgreen;
+}
+
+li:nth-child(odd){
+    background-color: dodgerblue;
+    color: white;
+}

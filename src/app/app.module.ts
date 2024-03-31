@@ -8,12 +8,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { C1Component } from './c1/c1.component';
 import { C2Component } from './c2/c2.component';
 import { ViewChildComponent } from './view-child/view-child.component';
+import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
 @NgModule({
   declarations: [
     AppComponent,
     C1Component,
     C2Component,
-    ViewChildComponent
+    ViewChildComponent,
+    InbuiltPipesComponent
   ],
   imports: [
     BrowserModule,

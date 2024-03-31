@@ -1,0 +1,15 @@
+<p>InBuilt Pipes Test</p>
+
+<div>
+    <ul>
+        <li *ngFor="let people of data; let i = index">
+            <h1>
+                {{i + 1}}. <br>
+            </h1>
+
+            <h3>Name: {{people.name | uppercase}}</h3>
+            <h3>Date of Birth: {{people.dob | date: 'dd / MMM / y' | uppercase}}</h3>
+            <h3>Salary: {{people.salary | currency: 'INR'}}</h3>
+        </li>
+    </ul>
+</div>

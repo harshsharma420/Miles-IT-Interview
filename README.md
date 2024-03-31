@@ -17,7 +17,8 @@ This repository and project has been created for me to practice and prepare for 
 - [x] Property / Event Binding
 - [ ] Route Guards
 - [ ] Http Interceptors
-- [ ] Pipes
+- [x] Built-in Pipes
+- [ ] Custom Pipes
 - [ ] Async Pipe
 - [ ] Lazy Loading
 - [ ] StandAlone Components
