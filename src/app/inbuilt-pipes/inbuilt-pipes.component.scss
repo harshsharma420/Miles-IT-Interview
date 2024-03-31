@@ -3,6 +3,7 @@ ul{
 }
 li{
     padding: 2rem;
+    color: white;
 }
 
 li:nth-child(even){
@@ -11,5 +12,4 @@ li:nth-child(even){
 
 li:nth-child(odd){
     background-color: dodgerblue;
-    color: white;
 }
