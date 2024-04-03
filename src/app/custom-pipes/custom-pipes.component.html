@@ -1,0 +1,16 @@
+<p>custom-pipes works!</p>
+
+
+<div class="container">
+    <label for="multiple">Multiples of : </label>
+    <input type="number" name="multiple" [(ngModel)] = "multiple">
+    <div class="list">
+        <ul>
+            <li *ngFor="let number of data">
+                <h3>
+                    {{number}} x {{multiple}} = {{number | table : multiple:'second argument'}}
+                </h3>
+            </li>
+        </ul>
+    </div>
+</div>

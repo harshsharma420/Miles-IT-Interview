@@ -18,7 +18,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Route Guards
 - [ ] Http Interceptors
 - [x] Built-in Pipes
-- [ ] Custom Pipes
+- [x] Custom Pipes
 - [ ] Async Pipe
 - [ ] Lazy Loading
 - [ ] StandAlone Components
