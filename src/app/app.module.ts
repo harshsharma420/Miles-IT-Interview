@@ -11,6 +11,7 @@ import { ViewChildComponent } from './view-child/view-child.component';
 import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
 import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 import { TablePipe } from './table.pipe';
+import { ObservablesComponent } from './observables/observables.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { TablePipe } from './table.pipe';
     ViewChildComponent,
     InbuiltPipesComponent,
     CustomPipesComponent,
-    TablePipe
+    TablePipe,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,

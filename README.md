@@ -19,6 +19,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Http Interceptors
 - [x] Built-in Pipes
 - [x] Custom Pipes
+- [x] Observables
 - [ ] Async Pipe
 - [ ] Lazy Loading
 - [ ] StandAlone Components
