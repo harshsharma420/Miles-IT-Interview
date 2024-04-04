@@ -15,7 +15,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] Routes
 - [x] ViewChild
 - [x] Property / Event Binding
-- [ ] Route Guards
+- [x] Route Guards
 - [ ] Http Interceptors
 - [x] Built-in Pipes
 - [x] Custom Pipes
