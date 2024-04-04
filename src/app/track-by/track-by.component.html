@@ -1,0 +1,28 @@
+<p>track-by works!</p>
+
+<form (ngSubmit) = "addStudent()" [formGroup]="student">
+
+    <div>
+        <label for="Name">Name: </label>
+        <input type="text" formControlName="name">
+    </div>
+    <div>
+        <label for="Marks">Marks: </label>
+        <input type="number" formControlName="marks">
+    </div>
+
+    <button type="submit" [disabled]="student.invalid">Submit!</button>
+
+</form>
+
+<ul>
+    <li *ngFor="let student of students;trackBy:studentsTrackBy">
+
+        <h3>
+            {{student.name}}
+        </h3>
+        <h3>
+            {{student.marks}}
+        </h3>
+    </li>
+</ul>

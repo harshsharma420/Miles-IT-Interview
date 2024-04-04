@@ -14,6 +14,7 @@ import { TablePipe } from './table.pipe';
 import { ObservablesComponent } from './observables/observables.component';
 import { RouteGuardComponent } from './route-guard/route-guard.component';
 import { UnlockedRouteComponent } from './unlocked-route/unlocked-route.component';
+import { TrackByComponent } from './track-by/track-by.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { UnlockedRouteComponent } from './unlocked-route/unlocked-route.componen
     TablePipe,
     ObservablesComponent,
     RouteGuardComponent,
-    UnlockedRouteComponent
+    UnlockedRouteComponent,
+    TrackByComponent
   ],
   imports: [
     BrowserModule,
