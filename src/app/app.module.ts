@@ -12,6 +12,8 @@ import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
 import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 import { TablePipe } from './table.pipe';
 import { ObservablesComponent } from './observables/observables.component';
+import { RouteGuardComponent } from './route-guard/route-guard.component';
+import { UnlockedRouteComponent } from './unlocked-route/unlocked-route.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { ObservablesComponent } from './observables/observables.component';
     InbuiltPipesComponent,
     CustomPipesComponent,
     TablePipe,
-    ObservablesComponent
+    ObservablesComponent,
+    RouteGuardComponent,
+    UnlockedRouteComponent
   ],
   imports: [
     BrowserModule,

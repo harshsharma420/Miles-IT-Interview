@@ -7,7 +7,7 @@ import { Observable, Subscription } from 'rxjs';
   styleUrls: ['./observables.component.scss']
 })
 export class ObservablesComponent implements OnInit {
-  obser: any;
+  obser?: any;
   myObservable = new Observable((car) => {
     console.log('Car Starts');
     car.next('1');
