@@ -1,0 +1,15 @@
+<p>async-pipe works!</p>
+
+<div>
+    <ul>
+        <li *ngFor="let result of results | async">
+            <h1>
+                {{result.id}}
+            </h1>
+
+            <h3>
+                {{result.title}}
+            </h3>
+        </li>
+    </ul>
+</div>

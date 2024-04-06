@@ -16,6 +16,7 @@ import { RouteGuardComponent } from './route-guard/route-guard.component';
 import { UnlockedRouteComponent } from './unlocked-route/unlocked-route.component';
 import { TrackByComponent } from './track-by/track-by.component';
 import { TokenInterceptor } from './token.interceptor';
+import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { TokenInterceptor } from './token.interceptor';
     ObservablesComponent,
     RouteGuardComponent,
     UnlockedRouteComponent,
-    TrackByComponent
+    TrackByComponent,
+    AsyncPipeComponent
   ],
   imports: [
     BrowserModule,

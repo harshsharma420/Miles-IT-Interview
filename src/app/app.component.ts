@@ -22,7 +22,10 @@ export class AppComponent {
   ) {
 
   }
-
+  ngOnInit(){
+    //just for resetting the token
+    localStorage.removeItem('token');
+  }
   addUsers() {
     if (this.data.invalid) {
       alert("Fill the form");

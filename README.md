@@ -20,7 +20,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] Built-in Pipes
 - [x] Custom Pipes
 - [x] Observables
-- [ ] Async Pipe
+- [x] Async Pipe
 - [ ] Lazy Loading
 - [ ] StandAlone Components
 - [ ] Angular Material
