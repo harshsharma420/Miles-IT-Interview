@@ -16,7 +16,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] ViewChild
 - [x] Property / Event Binding
 - [x] Route Guards
-- [ ] Http Interceptors
+- [x] Http Interceptors
 - [x] Built-in Pipes
 - [x] Custom Pipes
 - [x] Observables
@@ -26,7 +26,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Angular Material
 - [ ] Custom Directives
 - [ ] Custom Elements
-- [ ] TrackBy
+- [x] TrackBy
 - [ ] Rxjs
 - [ ] Subjects
 - [ ] Behavior Subject
