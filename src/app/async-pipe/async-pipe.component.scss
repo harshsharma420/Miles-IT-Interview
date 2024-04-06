@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: aquamarine;
+    // color: white;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+li:nth-child(even) {
+    background-color: crimson;
+    color: white;
+}

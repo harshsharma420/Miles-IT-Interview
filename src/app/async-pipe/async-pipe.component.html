@@ -4,11 +4,10 @@
     <ul>
         <li *ngFor="let result of results | async">
             <h1>
-                {{result.id}}
+                {{result.id}}.
             </h1>
-
             <h3>
-                {{result.title}}
+                Title: {{result.title | uppercase}}
             </h3>
         </li>
     </ul>
