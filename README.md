@@ -22,7 +22,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] Observables
 - [x] Async Pipe
 - [ ] Lazy Loading
-- [ ] StandAlone Components
+- [x] StandAlone Components
 - [ ] Angular Material
 - [ ] Custom Directives
 - [ ] Custom Elements

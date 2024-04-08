@@ -17,6 +17,7 @@ import { UnlockedRouteComponent } from './unlocked-route/unlocked-route.componen
 import { TrackByComponent } from './track-by/track-by.component';
 import { TokenInterceptor } from './token.interceptor';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
+import { StandAloneComponent } from './stand-alone/stand-alone.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    StandAloneComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true }
