@@ -28,7 +28,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Custom Elements
 - [x] TrackBy
 - [ ] Rxjs
-- [ ] Subjects
+- [x] Subject
 - [ ] Behavior Subject
 - [ ] Signal
 

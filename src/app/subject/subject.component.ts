@@ -42,4 +42,10 @@ export class SubjectComponent {
   nextSubject() {
     this.fourthNext = this.subject.next(Math.random());
   }
+  
+  ngOnDestroy(){
+    this.firstSubscribe.unsubscribe();
+    this.secondSubscribe.unsubscribe();
+    this.thirdSubscribe.unsubscribe();
+  }
 }
