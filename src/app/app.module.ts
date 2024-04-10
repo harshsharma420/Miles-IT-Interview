@@ -19,6 +19,7 @@ import { TokenInterceptor } from './token.interceptor';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 import { StandAloneComponent } from './stand-alone/stand-alone.component';
 import { SubjectComponent } from './subject/subject.component';
+import { BehaviorSubjectComponent } from './behavior-subject/behavior-subject.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import { SubjectComponent } from './subject/subject.component';
     UnlockedRouteComponent,
     TrackByComponent,
     AsyncPipeComponent,
-    SubjectComponent
+    SubjectComponent,
+    BehaviorSubjectComponent
   ],
   imports: [
     BrowserModule,
