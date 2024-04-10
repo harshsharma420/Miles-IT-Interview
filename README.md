@@ -29,7 +29,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] TrackBy
 - [ ] Rxjs
 - [x] Subject
-- [ ] Behavior Subject
+- [x] Behavior Subject
 - [ ] Signal
 
 
