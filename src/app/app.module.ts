@@ -20,6 +20,8 @@ import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 import { StandAloneComponent } from './stand-alone/stand-alone.component';
 import { SubjectComponent } from './subject/subject.component';
 import { BehaviorSubjectComponent } from './behavior-subject/behavior-subject.component';
+import { HighlightDirective } from './customDirectives/app-highlight.directive';
+import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,9 @@ import { BehaviorSubjectComponent } from './behavior-subject/behavior-subject.co
     TrackByComponent,
     AsyncPipeComponent,
     SubjectComponent,
-    BehaviorSubjectComponent
+    BehaviorSubjectComponent,
+    HighlightDirective,
+    CustomDirectiveComponent
   ],
   imports: [
     BrowserModule,
