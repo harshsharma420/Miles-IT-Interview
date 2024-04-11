@@ -1,7 +1,7 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[appAppNot]'
+  selector: '[appNot]'
 })
 export class AppNotDirective {
 
@@ -9,7 +9,7 @@ export class AppNotDirective {
     private tempRef: TemplateRef<any>,
     private viewCont: ViewContainerRef
   ) { }
-
+//this will do the opposite of ngIf
   @Input() set appNot(condition: boolean) {
     if (!condition) {
       this.viewCont.createEmbeddedView(this.tempRef);

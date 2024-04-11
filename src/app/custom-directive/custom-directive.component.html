@@ -1,5 +1,12 @@
 <p>custom-directive works!</p>
-
+<!-- Attribute Directives -->
 <h1 appHighlight>
-    I am the Best Person for Custom Directives
+    I am the Best Person for Custom Directives.
+    This is a Attribute Directive
 </h1>
+
+<!-- Structural Directives -->
+<h1 *appNot="true">When True!</h1>
+<h1 *appNot="false">When False!</h1>
+
+<h3 *appNot="false" appHighlight>also directives are chainable like used here!</h3>
