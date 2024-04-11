@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   templateUrl: './behavior-subject.component.html',
   styleUrls: ['./behavior-subject.component.scss']
 })
-export class BehaviorSubjectComponent {
+export class BehaviorSubjectComponent implements OnInit, OnDestroy{
   behaviorSubject = new BehaviorSubject<string>('hello');
 
   nextValue = this.behaviorSubject.next('asd');

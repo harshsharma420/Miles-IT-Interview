@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Component({
@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
   templateUrl: './subject.component.html',
   styleUrls: ['./subject.component.scss']
 })
-export class SubjectComponent {
+export class SubjectComponent implements OnDestroy{
   first_subscriber_subject?: number;
   second_subscriber_subject?: number;
   third_subscriber_subject?: number;

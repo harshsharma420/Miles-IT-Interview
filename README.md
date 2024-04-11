@@ -24,7 +24,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Lazy Loading
 - [x] StandAlone Components
 - [ ] Angular Material
-- [ ] Custom Directives
+- [x] Custom Directives
 - [ ] Custom Elements
 - [x] TrackBy
 - [ ] Rxjs
