@@ -24,6 +24,7 @@ import { HighlightDirective } from './customDirectives/app-highlight.directive';
 import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 import { AppNotDirective } from './customDirectives/app-not.directive';
 import { FirstModuleComponentComponent } from './modules/first-module/first-module-component/first-module-component.component';
+import { SecondModuleComponentComponent } from './modules/second-module/second-module-component/second-module-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { FirstModuleComponentComponent } from './modules/first-module/first-modu
     HighlightDirective,
     CustomDirectiveComponent,
     AppNotDirective,
-    FirstModuleComponentComponent
+    FirstModuleComponentComponent,
+    SecondModuleComponentComponent
   ],
   imports: [
     BrowserModule,
