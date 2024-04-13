@@ -8,7 +8,9 @@ const routes: Routes = [
     path: 'unlock-route',
     component: UnlockedRouteComponent,
     canActivate: [routeguardGuard]
-  }
+  },
+  { path: 'first-module', loadChildren: () => import('./modules/first-module-routing/first-module-routing.module').then(m => m.FirstModuleRoutingModule) },
+ { path: 'second-module', loadChildren: () => import('./modules/second-module-routing/second-module-routing.module').then(m => m.SecondModuleRoutingModule) },
 ];
 
 @NgModule({
