@@ -23,6 +23,7 @@ import { BehaviorSubjectComponent } from './behavior-subject/behavior-subject.co
 import { HighlightDirective } from './customDirectives/app-highlight.directive';
 import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 import { AppNotDirective } from './customDirectives/app-not.directive';
+import { FirstModuleComponentComponent } from './modules/first-module/first-module-component/first-module-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +42,8 @@ import { AppNotDirective } from './customDirectives/app-not.directive';
     BehaviorSubjectComponent,
     HighlightDirective,
     CustomDirectiveComponent,
-    AppNotDirective
+    AppNotDirective,
+    FirstModuleComponentComponent
   ],
   imports: [
     BrowserModule,
