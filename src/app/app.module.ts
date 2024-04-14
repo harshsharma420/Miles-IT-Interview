@@ -25,6 +25,7 @@ import { CustomDirectiveComponent } from './custom-directive/custom-directive.co
 import { AppNotDirective } from './customDirectives/app-not.directive';
 import { FirstModuleComponentComponent } from './modules/first-module/first-module-component/first-module-component.component';
 import { SecondModuleComponentComponent } from './modules/second-module/second-module-component/second-module-component.component';
+import { MapOperatorComponent } from './map-operator/map-operator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { SecondModuleComponentComponent } from './modules/second-module/second-m
     CustomDirectiveComponent,
     AppNotDirective,
     FirstModuleComponentComponent,
-    SecondModuleComponentComponent
+    SecondModuleComponentComponent,
+    MapOperatorComponent
   ],
   imports: [
     BrowserModule,
