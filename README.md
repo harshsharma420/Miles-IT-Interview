@@ -27,6 +27,7 @@ This repository and project has been created for me to practice and prepare for 
 - [x] Custom Directives
 - [ ] Custom Elements
 - [x] TrackBy
+- [ ] Map Operator(Part of Rxjs)
 - [ ] Rxjs
 - [x] Subject
 - [x] Behavior Subject
