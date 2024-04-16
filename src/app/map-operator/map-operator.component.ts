@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./map-operator.component.scss']
 })
 export class MapOperatorComponent {
-  data$: any;
+  data$: Observable<number>;
 
   constructor() {
     this.data$ = of(1, 2, 3, 4, 5).pipe(
@@ -18,5 +18,7 @@ export class MapOperatorComponent {
     console.log(this.data$);
     console.log("Hello from the Map Component");
   }
-
+  ngOnDestroy(){
+    // this.data$.unsubscribe();
+  }
 }
