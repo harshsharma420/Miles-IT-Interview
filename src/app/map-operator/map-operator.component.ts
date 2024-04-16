@@ -14,7 +14,9 @@ export class MapOperatorComponent {
     this.data$ = of(1, 2, 3, 4, 5).pipe(
       map((value: number) => value * 2)
     );
+    this.data$.subscribe(console.log);
     console.log(this.data$);
+    console.log("Hello from the Map Component");
   }
 
 }
