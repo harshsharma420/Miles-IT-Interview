@@ -28,6 +28,7 @@ This repository and project has been created for me to practice and prepare for 
 - [ ] Custom Elements
 - [x] TrackBy
 - [x] Map Operator(Part of Rxjs)
+- [ ] Filter Operator(Part of Rxjs)
 - [ ] Rxjs
 - [x] Subject
 - [x] Behavior Subject
