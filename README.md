@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This repository and project has been created for me to practice and prepare for Miles IT interview on 18th April 2024.
 
+I failed to get the job but I guess this practice wasnt in complete vain at the very least.
+
 ## List
 
 - [x] Services
