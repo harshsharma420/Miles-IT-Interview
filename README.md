@@ -32,7 +32,7 @@ I failed to get the job but I guess this practice wasnt in complete vain at the 
 - [x] Map Operator(Part of Rxjs)
 - [x] Filter Operator(Part of Rxjs)
 - [ ] Rxjs
-- [ ] Scheduler
+- [ ] Scheduler(Part of Rxjs)
 - [x] Subject
 - [x] Behavior Subject
 - [ ] Signal
